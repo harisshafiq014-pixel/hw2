@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Book::Book(string category, string name, double price, int qty, string isbn, string& author)
+Book::Book(string category, string name, double price, int qty, string isbn, string author)
     : Product(category, name, price, qty),
       isbn_(isbn),
       author_(author)

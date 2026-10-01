@@ -8,7 +8,7 @@
 class Movie : public Product
 {
 public:
-    Movie(std::string category, std::string& name, double price, int qty, std::string genre, std::string rating);
+    Movie(std::string category, std::string name, double price, int qty, std::string genre, std::string rating);
 
     virtual ~Movie();
 

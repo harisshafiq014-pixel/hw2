@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Clothing::Clothing(string category, string name, double price, int qty, string size, string& brand)
+Clothing::Clothing(string category, string name, double price, int qty, string size, string brand)
     : Product(category, name, price, qty), size_(size), brand_(brand)
 {
 }

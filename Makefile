@@ -5,7 +5,6 @@ CXXFLAGS=-g -Wall -std=c++11
 
 OBJS=amazon.o user.o db_parser.o product.o product_parser.o util.o book.o clothing.o movie.o mydatastore.o
 
-
 all: amazon
 
 amazon: $(OBJS)

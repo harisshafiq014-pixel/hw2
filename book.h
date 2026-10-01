@@ -8,7 +8,7 @@
 class Book : public Product
 {
 public:
-    Book(std::string category, std::string name, double price, int qty, const std::string& isbn, const std::string& author);
+    Book(std::string category, std::string name, double price, int qty, std::string isbn, std::string author);
 
     virtual ~Book();
 
