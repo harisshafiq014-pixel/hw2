@@ -20,8 +20,10 @@ std::set<std::string> parseStringToWords(string rawWords)
     trim(rawWords);
     rawWords = convToLower(rawWords);
 
-    for (int i = 0; i < rawWords.size(); i++) {
-        
+    for (size_t i = 0; i < rawWords.size(); i++) {
+
+        char current = rawWords[i];
+
         bool isLetter = (current >= 'a' && current <= 'z');
         bool isNumber = (current >= '0' && current <= '9');
 
